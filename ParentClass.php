@@ -35,4 +35,8 @@
     public function setProfessor($prof) {
       $this->professor = $prof;
     }
+    
+    public function __toString() {
+      return $this->getClassNumber() . " " . $this.getClassName() . "<br>" . $this.getProfessor() . "<br>";
+    }
   }
