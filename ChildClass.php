@@ -7,6 +7,7 @@
     
     public function __construct($num, $name, $prof, $loc, $time) {
       parent::_construct($num, $name, $prof);
+      echo "<!-- Adding location and time -->";
       $this->location = $loc;
       $this->time = $time;
     }
