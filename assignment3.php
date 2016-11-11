@@ -11,13 +11,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="assignment3.css">
-	<title>Assignment 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="assignment3.css">
+  <title>Assignment 3</title>
 </head>
 <body>
-	<h1>CS 1520 - Assignment 3</h1>
+  <h1>CS 1520 - Assignment 3</h1>
   <p>Here are some of the courses I am taking this year.</p>
   
   <section class="course">
