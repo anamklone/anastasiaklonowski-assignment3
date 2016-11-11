@@ -3,13 +3,13 @@
 
 	class ChildClass extends ParentClass {
 		private $location;
-    private $time;
+    private $when;
     
-    public function __construct($num, $name, $prof, $loc, $time) {
-      parent::_construct($num, $name, $prof);
+    public function __construct($num, $name, $prof, $loc, $when) {
+      parent::__construct($num, $name, $prof);
       echo "<!-- Adding location and time -->";
       $this->location = $loc;
-      $this->time = $time;
+      $this->when = $when;
     }
     
     public function getLocation() {
@@ -21,15 +21,16 @@
     }
     
     public function getTime() {
-      return $this->time;
+      return $this->when;
     }
     
-    public function setTime($time) {
-      $this->time = $time;
+    public function setTime($when) {
+      $this->when = $when;
     }
     
     public function __toString() {
-      return parent::__toString() . $this->getLocation() . "<br>" . $this->getTime() . "<br>";
+      $string = parent::__toString() . $this->getLocation() . "<br>" . $this->getTime() . "<br>";
+      return $string;
     }
 	}
 ?>
