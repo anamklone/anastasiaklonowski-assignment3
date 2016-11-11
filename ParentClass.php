@@ -37,7 +37,8 @@
     }
     
     public function __toString() {
-      return $this->getClassNumber() . " " . $this.getClassName() . "<br>" . $this.getProfessor() . "<br>";
+      $string = "<b>" . $this->getClassNumber() . ": " . $this->getClassName() . "</b><br>" . $this->getProfessor() . "<br>";
+      return $string;
     }
   }
 ?>
