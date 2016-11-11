@@ -5,25 +5,26 @@
 		private $location;
     private $time;
     
-    public function __construct($l, $t) {
-      $this->location = $l;
-      $this->time = $t;
+    public function __construct($num, $name, $prof, $loc, $time) {
+      parent::_construct($num, $name, $prof);
+      $this->location = $loc;
+      $this->time = $time;
     }
     
     public function getLocation() {
       return $this->location;
     }
     
-    public function setLocation($l) {
-      $this->location = $l;
+    public function setLocation($loc) {
+      $this->location = $loc;
     }
     
     public function getTime() {
       return $this->time;
     }
     
-    public function setTime($t) {
-      $this->time = $t;
+    public function setTime($time) {
+      $this->time = $time;
     }
     
     public function __toString() {
