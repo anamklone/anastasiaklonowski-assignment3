@@ -1,7 +1,7 @@
 <?php
-	// This is the file for the parent class
+  // This is the file for the parent class
 
-	class ParentClass {
+  class ParentClass {
     private $classNumber;
     private $className;
     private $professor;
