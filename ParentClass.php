@@ -40,3 +40,4 @@
       return $this->getClassNumber() . " " . $this.getClassName() . "<br>" . $this.getProfessor() . "<br>";
     }
   }
+?>
