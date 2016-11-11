@@ -1,8 +1,8 @@
 <?php 
-	// this file will extend ParentClass.php
+  // this file will extend ParentClass.php
 
-	class ChildClass extends ParentClass {
-		private $location;
+  class ChildClass extends ParentClass {
+    private $location;
     private $when;
     
     public function __construct($num, $name, $prof, $loc, $when) {
@@ -32,5 +32,5 @@
       $string = parent::__toString() . $this->getLocation() . "<br>" . $this->getTime() . "<br>";
       return $string;
     }
-	}
+  }
 ?>
