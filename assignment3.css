@@ -1,1 +1,8 @@
 /*styles for assignment 3*/
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+section.course {
+  margin: 10px 15px;
+}
